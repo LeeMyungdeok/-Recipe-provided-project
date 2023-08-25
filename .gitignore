@@ -1,0 +1,4 @@
+## .gitignore
+secret.json
+node/node_modules
+node/package*
