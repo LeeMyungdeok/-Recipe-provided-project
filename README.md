@@ -1,1 +1,1 @@
-# -Recipe-provided-project
+# Recipe-provided-project
