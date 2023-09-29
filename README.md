@@ -1,10 +1,9 @@
 # 식비 절약!! 자취생들위한 음식 레시피 검색 서비스
 
-### ⏱ 공공자전거 대여 서비스 구현 프로젝트⏱
 <br>
 
 <p align="center">
-<img width="400px" src="https://github.com/LeeMyungdeok/bike-rental-project/assets/115915362/8a87e8d2-42c2-4415-9613-8fcdd53744d2">
+<img width="400px" src="https://smashinglogo.com/v3/envision/image.jpg?id=91fc3d13-3b21-4163-842f-ec930369348b&format=desktop">
 <br><br>
 <img src= "https://img.shields.io/badge/Javascript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white" />
 <img src= "https://img.shields.io/badge/nodedotjs-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
@@ -121,17 +120,14 @@ npm install sync-mysql dotevv async axios
 
 예정 입니다.
 
-## 팀명: 2030Team
+## 팀명: 이세계식당
 
-* [팀원](링크) - 이명덕, 한종우
+* [팀원](링크) - 이명덕, 서민희
 
 ## 담당 업무
 
 - backend
-  - mysql을 활용하여 데이터를 비교하면서 로그인을 기능을 구현했습니다.
-  - 자전거 대여 및 반납 구현을 중심적으로 구현했습니다. 자전거를 대여하면서 시간, 자전거, 이름 등 필요 데이터를 mongodb에 저장을 했습니다.
-  - 사용자가 반납을 하면 mongodb에서 해당 데이터를 불러와 처리를 하여 다시 mysql로 저장을 시켰습니다.
-  - 사용자가 반납을 하게되면 사용한 시간을 연산하여 가격을 처리하였고 해당 가격으로 결제 시스템을 구현했습니다.
+  - 
 - frontend
   - 로그인 페이지, main 페이지를 구축했습니다.
  
