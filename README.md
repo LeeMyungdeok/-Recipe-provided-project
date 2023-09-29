@@ -2,8 +2,7 @@
 
 <br>
 
-<p align="center">
-<img width="400px" src="https://smashinglogo.com/v3/envision/image.jpg?id=91fc3d13-3b21-4163-842f-ec930369348b&format=desktop">
+<img width="400px" src="https://github.com/LeeMyungdeok/Recipe-provided-project/assets/115915362/c623c6fb-4475-4ea4-b7af-431b0073c758)">
 <br><br>
 <img src= "https://img.shields.io/badge/Javascript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white" />
 <img src= "https://img.shields.io/badge/nodedotjs-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
