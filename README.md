@@ -44,9 +44,10 @@ nodemon app.js
 
 
 
+
 ## back-end 아키텍쳐 설계
 
-<img width="592" alt="스크린샷 2023-09-22 오후 9 31 23" src="https://github.com/LeeMyungdeok/bike-rental-project/assets/115915362/4ac3590d-024c-4318-8427-0a00966efda1">
+<img width="700" alt="image" src="https://github.com/LeeMyungdeok/Recipe-provided-project/assets/115915362/fa80152a-5bb5-4977-9e4f-a94d953fa51e">
 
 ### 테스트는 이런 식으로 동작합니다
 |                sign in              |                sign up               |
