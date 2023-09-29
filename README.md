@@ -20,7 +20,7 @@
 
 ### development environment
 
-## Recipe-provided-project
+#### Recipe-provided-project
 ```
 json-server --watch ./bin_FoodData.json --host 0.0.0.0 --port 5000
 ```
@@ -31,12 +31,12 @@ json-serve
 r --watch ./Trash.json --host 0.0.0.0 --port 5001
 ```
 
-## server
+#### server
 ```
 uvicorn main:app --host 0.0.0.0 --port 3000 --reload
 ```
 
-## client
+#### client
 ```
 nodemon app.js
 ```
