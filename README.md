@@ -41,10 +41,6 @@ uvicorn main:app --host 0.0.0.0 --port 3000 --reload
 nodemon app.js
 ```
 
-
-
-
-
 ## back-end 아키텍쳐 설계
 
 <img width="700" alt="image" src="https://github.com/LeeMyungdeok/Recipe-provided-project/assets/115915362/fa80152a-5bb5-4977-9e4f-a94d953fa51e">
@@ -58,17 +54,6 @@ nodemon app.js
 | :----------------------------------: | :----------------------------------: |
 | <img src='https://github.com/LeeMyungdeok/Recipe-provided-project/assets/115915362/b6b795d0-f00b-4429-8351-fe532fa74a7c' width='400px' height='300px'> | <img src='https://github.com/LeeMyungdeok/Recipe-provided-project/assets/115915362/36730ab2-37b2-4ecf-8324-3318801bfbc4' width='400px' height='300px'> |
 
-
-
-
-
-
-
-
-
-
-
-
 ## 배포
 
 예정 입니다.
@@ -80,10 +65,16 @@ nodemon app.js
 ## 담당 업무
 
 - backend
-  - 
+  - 공공 데이터 포털에서 요리 재료에 대한 데이터를 가공했습니다.
+    - 재료에 대한 전처리는 주로 코넬파이를 이용하여 형태소 분리 또는 정규 표현식을 사용하여 작업을 진행했습니다. 
+  - 요리 레시피에 대한 데이터 및 재료 데이터를 가지고 Fast api를 사용하여 Rest full 방식으로 프로세스를 구축했습니다.
+    - json 파일을 임의의 server로 사용하여 전처리를 잘못된부분을 필터링을 걸치도록 하기위해 구축했습니다.
+    - 검색, 연관검색, 신고, 레시피 조회 등 전반적인 api 설계 부터 구현까지 위주로 담당업무를 진행했습니다. 
 - frontend
-  - 로그인 페이지, main 페이지를 구축했습니다.
+  - xhr를 사용하여 client와 server을 연결했습니다.
+    - 기존에 axios를 사용했지만 xhr을 알게 되어 어떤 흐름으로 가는지 경험했습니다. 
  
 ## 보완점
 
-* 해당 프로젝트는 node.js, html, css, javascript의 내용을 배워 첫 프로젝트이기에 부족한 점이 많습니다. 조금 씩 업그레이드를 할 예정입니다.
+* 데이터 전처리에 대한 경우 완벽하지 못하여 재료가 아닌 값이 나오는 경우가 있습니다. 그것을 사용자가 신고를 해줌으로써 필터안에 들어가게 되고 그 후 다시 그 음식에 대한 레시피를 조회하면 필터링이 될 수 있도록 설계를 했습니다. 비롯 초반에는 애러가 종종 발생하지만 사용자들이 사용하고 신고를 눌러 줌으로써 데이터가 쌓여 더욱 정교한 프로세스서가 될수 있는 성장형 프로그램을 만들었습니다.
+* 현재 AWS에서 다시 Develop 예정입니다.
