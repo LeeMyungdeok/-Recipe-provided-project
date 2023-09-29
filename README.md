@@ -49,7 +49,7 @@ nodemon app.js
 
 <img width="700" alt="image" src="https://github.com/LeeMyungdeok/Recipe-provided-project/assets/115915362/fa80152a-5bb5-4977-9e4f-a94d953fa51e">
 
-### 테스트는 이런 식으로 동작합니다
+### 기능 동작
 |                sign in              |                sign up               |
 | :----------------------------------: | :----------------------------------: | 
 | <img src='https://github.com/LeeMyungdeok/Recipe-provided-project/assets/115915362/0a8dd09a-962c-4eb5-9ee7-aea4d4bcc16f' width='400px' height='300px'> | <img src='https://github.com/LeeMyungdeok/Recipe-provided-project/assets/115915362/96fccd2d-74b5-4c75-9f83-2857754edf8d' width='400px' height='300px'>                                 |
