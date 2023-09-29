@@ -18,83 +18,31 @@
 ## 주제 선정 이유
 현재 인플레이션으로 인한 물가 상승률이 상당히 높아진 상황에서 대학생 및 사회 초년생 중 자취생들은 여러 가지 경제적 어려움에 직면하고 있습니다. 이 중에서도 가장 큰 어려움은 식비로, 이를 해결하는 것이 매우 어렵습니다. 따라서 우리는 자취생들이 이러한 부담을 덜게 하고, 요리의 방향을 잡는 데 도움을 주기 위한 도구를 개발하고자 합니다.
 
-### Installing
+### development environment
 
-#### npm 모듈 설치 
+## ./Recipe-provided-project
+```
+json-server --watch ./bin_FoodData.json --host 0.0.0.0 --port 5000
+```
+```
+json-serve
+```
+```
+r --watch ./Trash.json --host 0.0.0.0 --port 5001
+```
 
+## ./server
 ```
-apt install -y npm
+uvicorn main:app --host 0.0.0.0 --port 3000 --reload
 ```
-```
-npm install -g nodemon
-```
-```
-npm init -y
-```
-```
-npm install express morgan path body-parser cookie-parser mongoose
-```
-#### mongodb 설치
 
+## client
 ```
-wget -qO - https://www.mongodb.org/static/pgp/server-4.4.asc | sudo apt-key add -
+nodemon app.js
 ```
-```
-echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/4.4 multiverse" | tee /etc/apt/sources.list.d/mongodb-org-4.4.list
-```
-```
-wget http://archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.1f-1ubuntu2_amd64.deb
-```
-```
-dpkg -i libssl1.1_1.1.1f-1ubuntu2_amd64.deb
-```
-```
-rm -rf libssl1.1_1.1.1f-1ubuntu2_amd64.deb
-```
-```
-apt -y update; apt -y upgrade
-```
-```
-apt -y install mongodb-org
-```
-```
-systemctl start mongod
-```
-```
-systemctl status mongod
-```
-```
-mongod --version
-```
-```
-mongo
-```
-#### nodejs install
 
-```
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
-```
-```
-cat ~/.bashrc
-```
-```
-source ~/.bashrc
-```
-```
-nvm --version
-```
-```
-nvm ls-remote
-```
-```
-nvm install v18.15
-```
-```
-nvm install v16.20
-```
-```
-npm install sync-mysql dotevv async axios
-```
+
+
 
 ## back-end 아키텍쳐 설계
 
