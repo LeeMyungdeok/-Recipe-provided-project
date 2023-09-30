@@ -75,8 +75,10 @@
 
 <br/>
 
+
 ### ✔ 기획 의도와 방향성
-![기획의도와방향성](<기획의도와 방향성.jpg>)
+
+![KakaoTalk_Photo_2023-09-30-19-46-32](https://github.com/LeeMyungdeok/Recipe-provided-project/assets/115915362/91408678-2d33-4135-9963-88693afb5807)
 
 - 집에서 요리하기 위한 자취생들의 냉장고를 부탁해!
 - 사용하면 할수록 데이터가 쌓이는 성장형 시스템 구축
@@ -87,7 +89,8 @@
 
 > 기획의도에 맞게 시스템이 동작하려면 사용자의 입력값에 대한 <br/> 일련의 정보를 처리하고 가공하는 과정이 정리가 되어야 했습니다. <br/> 저희는 우선 영양정보 API를 가공하여 mongodb에 저장 했고, <br/> 이를 기반으로 db와 매칭을 통해 식재료를 판별하는 과정을 거쳤습니다.
 
-![Alt text](image.png)
+![KakaoTalk_Photo_2023-09-30-19-46-53](https://github.com/LeeMyungdeok/Recipe-provided-project/assets/115915362/c04ee5a3-325e-4a53-8081-da1e575b74d8)
+
 
 > 위의 화면은 [Show list]를 하기까지의 과정을 보여줍니다. <br/> [Show list]는 사용자가 음식을 검색하면 그에 대한 레시피와 식재료에 대한 정보를 제공하는 부분입니다. 
 
