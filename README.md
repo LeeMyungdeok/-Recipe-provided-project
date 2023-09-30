@@ -43,8 +43,9 @@ nodemon app.js
 
 ## back-end 아키텍쳐 설계
 
+<p align="center">
 <img width="700" alt="image" src="https://github.com/LeeMyungdeok/Recipe-provided-project/assets/115915362/fa80152a-5bb5-4977-9e4f-a94d953fa51e">
-
+</p>
 ### 기능 동작
 |                sign in              |                sign up               |
 | :----------------------------------: | :----------------------------------: | 
