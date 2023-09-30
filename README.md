@@ -94,14 +94,15 @@
 
 > 위의 화면은 [Show list]를 하기까지의 과정을 보여줍니다. <br/> [Show list]는 사용자가 음식을 검색하면 그에 대한 레시피와 식재료에 대한 정보를 제공하는 부분입니다. 
 
-![Alt text](image-1.png)
+![KakaoTalk_Photo_2023-09-30-19-54-15](https://github.com/LeeMyungdeok/Recipe-provided-project/assets/115915362/92a56d36-5638-4271-8500-5b061e0e8a72)
 
 > 필요한 데이터만을 추출하기 위한 가공이 완벽하지 않아,<br/> 식재료가 아닌 값이 화면에 나오는 경우가 있습니다. <br/> 이러한 데이터의 경우 사용자가 '신고'를 눌러줌으로써 필터에 들어가고, <br/> 그 후 다시 그 음식에 대한 레시피를 조회하면 필터링이 될 수 있도록 설계했습니다.<br/> 사용자들이 시스템을 사용하고 '신고'를 눌러 데이터가 쌓임으로써<br/>  더욱 정교한 프로세스가 될 수 있는 성장형 시스템을 구축하고자 했습니다.
 
 <br/>
 
 ###  ✔ 실행 화면
-![결과물](___%EC%9D%B4%EC%84%B8%EA%B3%84%EC%8B%9D%EB%8B%B9___-Chrome-2023-09-30-14-17-36.gif)
+
+![KakaoTalk_Image_2023-09-30-19-54-53](https://github.com/LeeMyungdeok/Recipe-provided-project/assets/115915362/c41b242c-bcda-47f9-8352-a741adff4f2b)
 
 <br/>
 
