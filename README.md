@@ -85,6 +85,10 @@
 
 <br/>
 
+###  ✔ 아키텍쳐
+
+![Blank diagram](https://github.com/LeeMyungdeok/Recipe-provided-project/assets/115915362/190aa2f1-6d50-4e5d-b36e-13b939f644d3)
+
 ###  ✔ 개발 과정
 
 > 기획의도에 맞게 시스템이 동작하려면 사용자의 입력값에 대한 <br/> 일련의 정보를 처리하고 가공하는 과정이 정리가 되어야 했습니다. <br/> 저희는 우선 영양정보 API를 가공하여 mongodb에 저장 했고, <br/> 이를 기반으로 db와 매칭을 통해 식재료를 판별하는 과정을 거쳤습니다.
