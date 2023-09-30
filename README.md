@@ -87,7 +87,8 @@
 
 ###  ✔ 아키텍쳐
 
-![Blank diagram](https://github.com/LeeMyungdeok/Recipe-provided-project/assets/115915362/190aa2f1-6d50-4e5d-b36e-13b939f644d3)
+
+![image](https://github.com/LeeMyungdeok/Recipe-provided-project/assets/115915362/0d1e4082-b7d8-4a7a-9116-cf92d4c608e4)
 
 ###  ✔ 개발 과정
 
